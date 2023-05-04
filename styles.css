@@ -52,3 +52,12 @@ html {
     vertical-align: middle; 
     display: inline;
   }
+
+@media only screen and (max-width: 600px) {
+  #survey-form {
+    width: 90%;
+    min-width: none;
+    max-width: none;
+    padding: 16px;
+  }
+}
